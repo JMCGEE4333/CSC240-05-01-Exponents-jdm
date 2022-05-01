@@ -38,7 +38,7 @@
             // UxInputTextBox
             // 
             this.UxInputTextBox.Location = new System.Drawing.Point(139, 55);
-            this.UxInputTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UxInputTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.UxInputTextBox.Name = "UxInputTextBox";
             this.UxInputTextBox.Size = new System.Drawing.Size(132, 22);
             this.UxInputTextBox.TabIndex = 0;
@@ -66,7 +66,7 @@
             // UxGoButton
             // 
             this.UxGoButton.Location = new System.Drawing.Point(139, 95);
-            this.UxGoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UxGoButton.Margin = new System.Windows.Forms.Padding(4);
             this.UxGoButton.Name = "UxGoButton";
             this.UxGoButton.Size = new System.Drawing.Size(100, 82);
             this.UxGoButton.TabIndex = 6;
@@ -77,7 +77,7 @@
             // UxResetButton
             // 
             this.UxResetButton.Location = new System.Drawing.Point(139, 253);
-            this.UxResetButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UxResetButton.Margin = new System.Windows.Forms.Padding(4);
             this.UxResetButton.Name = "UxResetButton";
             this.UxResetButton.Size = new System.Drawing.Size(100, 28);
             this.UxResetButton.TabIndex = 7;
@@ -95,8 +95,9 @@
             this.Controls.Add(this.UxOutputLabel);
             this.Controls.Add(this.UxInputLabel);
             this.Controls.Add(this.UxInputTextBox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exponents Demo";
             this.ResumeLayout(false);
             this.PerformLayout();
